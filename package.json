@@ -1,0 +1,43 @@
+{
+  "name": "Dark Rain",
+  "displayName": "dark.uıɐɹ",
+  "description": "Deep blacks with vivid bursts of green, pink, and blue.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark.uıɐɹ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.uıɐɹ-color-theme.json"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "package-explorer",    
+          "title": "Package Explorer",
+          "icon": "$(heart)"
+        }
+      ]
+    },
+    "views": {
+      "package-explorer": [
+        {
+          "id": "package-dependencies",
+          "name": "Dependencies",
+          "type": "tree"
+        },
+        {
+          "id": "package-outline",
+          "name": "Outline"
+        }
+      ]
+    }
+  }
+}
